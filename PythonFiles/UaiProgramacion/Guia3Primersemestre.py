@@ -150,21 +150,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # #Decimo problema.
 # num = int(input("Numero: "))
 
