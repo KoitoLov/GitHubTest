@@ -150,14 +150,6 @@
 
 
 
-# #Decimo problema.
-# num = int(input("Numero: "))
-
-# while True:
-#     if num < 7:
-#         print("Ningun resultado.")
-    
-#     if 
 
 
 
