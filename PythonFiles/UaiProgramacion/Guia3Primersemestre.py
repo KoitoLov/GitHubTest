@@ -94,26 +94,35 @@
 #     print("El numero", num, "es primo.")
     
 
+    
+#Noveno problema. 
+
+# rango = int(input("Ingrese un numero: "))
+# contador = 0
+
+# for i in range(rango+1):
+#     if i not in (0, 1, 2):
+#         for e in range(1000001):
+#             if e != 0:
+#                 if i % e == 0:
+#                     contador += 1
+
+#         if contador <= 2:
+#             print(i)
+#             contador = 0
+#         else:
+#             contador = 0
+#             continue
 
 
-#Noveno problema NO RESUELTO.
 
-contador_resto = 0
 
-rango = int(input("Numero: "))
 
-for i in range(rango):
-    if i == 0:
-        continue
-    for e in range(10):
-        if e == 0:
-            continue
-        resultado = i % e
-        if resultado == 0:
-            contador_resto += 1
-            print(i)
-    if contador_resto <= 2:
-        print(i)
+
+
+
+
+
 
 
 
