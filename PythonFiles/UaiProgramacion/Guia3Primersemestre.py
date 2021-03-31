@@ -94,7 +94,7 @@
 #     print("El numero", num, "es primo.")
     
 
-    
+
 #Noveno problema. 
 
 # rango = int(input("Ingrese un numero: "))
@@ -113,6 +113,19 @@
 #         else:
 #             contador = 0
 #             continue
+
+
+
+#Decimo problema.
+
+numero = int(input("Ingrese un numero: "))
+digito = 7
+
+for i in range(numero+1):
+    if str(digito) in str(i):
+        print(i)
+    else:
+        continue
 
 
 
