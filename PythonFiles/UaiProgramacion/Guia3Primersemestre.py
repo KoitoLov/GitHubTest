@@ -7,7 +7,7 @@
 
 #Segundo problema V.1
 # for i in range(0,1001):
-#     if i % 3 == 0:
+#     if i % 3 == 0:print("Reiniciando juego...")
 #         print(i)
 #     elif i % 4 == 0:
 #         print(i)
@@ -76,43 +76,58 @@
 
 
 #Octavo problema NO RESUELTO.
-# while True:
-#     num = int(input("Numero: "))
 
-#     if num != 2 and num % 2 == 0:
-#         print("El numero no es primo")
-#     elif num != 3 and num % 3 == 0:
-#         print("El numero no es primo")
-#     elif num != 5 and num % 5 == 0:
-#         print("El numero no es primo")
-#     else:
-#         print("El numero es PRIMO!")
+# contador_resto = 0
+
+# num = int(input("Numero: "))
+
+# for i in range(0,10000001):
+#     if i == 0:
+#         continue
+#     resultado = num % i
+#     if resultado == 0:
+#         contador_resto += 1
+
+# if contador_resto > 2:
+#     print("El numero", num, "no es primo.")
+# elif contador_resto <= 2:
+#     print("El numero", num, "es primo.")
+    
 
 
 
 #Noveno problema NO RESUELTO.
+
+contador_resto = 0
+
+rango = int(input("Numero: "))
+
+for i in range(rango):
+    if i == 0:
+        continue
+    for e in range(10):
+        if e == 0:
+            continue
+        resultado = i % e
+        if resultado == 0:
+            contador_resto += 1
+            print(i)
+    if contador_resto <= 2:
+        print(i)
+
+
+
+
+
+
+# #Decimo problema.
+# num = int(input("Numero: "))
+
 # while True:
-#     num = int(input("Numero: "))
-
-#     if num != 2 and num % 2 == 0:
-#         print("El numero no es primo")
-#     elif num != 3 and num % 3 == 0:
-#         print("El numero no es primo")
-#     elif num != 5 and num % 5 == 0:
-#         print("El numero no es primo")
-#     else:
-#         print("El numero es PRIMO!")
-
-
-
-#Decimo problema.
-num = int(input("Numero: "))
-
-while True:
-    if num < 7:
-        print("Ningun resultado.")
+#     if num < 7:
+#         print("Ningun resultado.")
     
-    if 
+#     if 
 
 
 
