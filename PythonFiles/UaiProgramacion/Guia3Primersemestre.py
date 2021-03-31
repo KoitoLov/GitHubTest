@@ -118,14 +118,37 @@
 
 #Decimo problema.
 
-numero = int(input("Ingrese un numero: "))
-digito = 7
+# numero = int(input("Ingrese un numero: "))
+# digito = 7
 
-for i in range(numero+1):
-    if str(digito) in str(i):
-        print(i)
-    else:
-        continue
+# for i in range(numero+1):
+#     if str(digito) in str(i):
+#         print(i)
+#     else:
+#         continue
+
+
+
+#Decimoprimer problema.
+
+# activo = True
+
+# suma = 0
+# contador = 0
+
+# while activo:
+#     numero = int(input("Ingrese un numero: "))
+#     if numero < 0:
+#         activo = False
+#     else:
+#         suma += numero
+#         contador += 1
+
+
+# promedio = suma/contador
+# print("Fin del programa. La suma total fue", suma, "y el promedio fue", promedio) 
+
+
 
 
 
