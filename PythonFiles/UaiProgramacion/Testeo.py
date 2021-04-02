@@ -1,8 +1,8 @@
-x = int(input("Ingrese un numero: "))
-digito = 7
+I = "Hola"
 
-for i in range(x+1):
-    if str(digito) in str(i):
-        print(i)
-    else:
-        continue
+Hola = "HOLA"
+
+if I == Hola:
+    print("HOLA")
+
+print("HOLAAA")

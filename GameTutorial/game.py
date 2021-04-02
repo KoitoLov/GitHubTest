@@ -10,7 +10,7 @@ WIDTH, HEIGHT = 1024, 720
 #Setear el size de la pantalla
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
-pygame.display.set_caption("Víctor Núñez. Juego Prueba")
+pygame.display.set_caption("Juego Prueba")
 
 #COLORES
 BLACK = (0, 0, 0)
