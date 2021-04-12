@@ -1,8 +1,6 @@
-I = "Hola"
+mylist = ['Hola que tal, como estas', 'Tu puta madre', 'ghi789']
+sub = 'abc'
 
-Hola = "HOLA"
+print(mylist[0].index(2))
 
-if I == Hola:
-    print("HOLA")
-
-print("HOLAAA")
+# print([s for s in mylist[0] if ' ' in s])

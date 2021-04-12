@@ -64,20 +64,129 @@ import random
 
 #Quinto ejercicio.
 
-lista = []
-posicion_lista = []
+# lista = []
+# posicion_lista = []
 
 
-for i in range(40):
-    num_random = random.randint(0, 40)
-    lista.append(num_random)
+# for i in range(40):
+#     num_random = random.randint(0, 40)
+#     lista.append(num_random)
 
-num = int(input("Ingrese un num: "))
+# num = int(input("Ingrese un num: "))
 
-if num in lista:
+# for e in range(len(lista)):
+#     if lista[e] == num:
+#         print(e)
+
+# print(lista)
+
+
+
+#Sexto ejercicio.
+
+# lista = []
+
+# for i in range(50):
+#     num_random = random.randint(0,50)
+#     lista.append(num_random)
+
+# num = int(input("Ingrese un numero: "))
+# print(lista)
+
+# for e in range(len(lista)):
+#     if lista[e] == num:
+#         lista.pop(e)
+
+# print(lista)
+
+
+
+#Septimo ejercicio.
+
+# lista1 = []
+# lista2 = []
+# suma = []
+
+# for i in range(50):
+#     num_random = random.randint(0,50)
+#     lista1.append(num_random)
+
+# for e in range(50):
+#     num_random = random.randint(0,50)
+#     lista2.append(num_random)
+
+# for a in range(len(lista1)):
+#     suma.append(lista1[a] + lista2[a])
+
+# print(lista1)
+# print(lista2)
+# print(suma)
+
+
+
+#Octavo ejercicio.
+
+# lista1 = []
+# division = []
+
+
+# for i in range(50):
+#     num_random = random.randint(0,50)
+#     lista1.append(num_random)
+
+
+
+# for e in range(len(lista1)):
+#     print(e)
+#     if e == 24:
+#         break
     
 
-print(posicion_lista)
-                
+#     mitad = len(lista1)//2 + e
+#     if lista1[mitad] == 0:
+#         continue
+
+#     division.append(lista1[e] / lista1[mitad])
+#     print("Sigo en el loop")
+
+# print(division)
+
+
+
+#Noveno ejercicio.
+
+# lista1 = []
+# division = []
+
+# largo = int(input("Ingrese un numero: "))
+
+
+# for i in range(largo):
+#     num_random = random.randint(0, largo)
+#     lista1.append(num_random)
+
+
+
+# for e in range(len(lista1)):
+#     print(e)
+#     if e == largo//2 - 1:
+#         break
+    
+
+#     mitad = len(lista1)//2 + e
+#     if lista1[mitad] == 0:
+#         continue
+
+#     division.append(lista1[e] / lista1[mitad])
+#     print("Sigo en el loop")
+
+# print(division)
+
+
+
+
+
+
+
 
 
