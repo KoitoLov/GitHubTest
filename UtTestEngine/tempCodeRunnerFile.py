@@ -1,3 +1,0 @@
-
-    jugando = True
-    while jugando:
