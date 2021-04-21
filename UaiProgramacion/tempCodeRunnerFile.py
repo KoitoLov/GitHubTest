@@ -1,1 +1,1 @@
-nt(lista
+encuesta
